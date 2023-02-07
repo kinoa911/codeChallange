@@ -1,0 +1,2 @@
+export const codeChallenge = "0xa22aa65ba1b5ef9f0922788069e45cfcee57d5c6bdb038944edfa9cfc792cfec";
+
