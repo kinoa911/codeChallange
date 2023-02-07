@@ -1,0 +1,21 @@
+[package]
+name = 'codeChallenge'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies]
+# AptosFramework = {git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "72421d32d77f1877ded478e96f5b95914de1df91"}
+AptosStdlib = {git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib/", rev = "72421d32d77f1877ded478e96f5b95914de1df91"}
+
+
+[addresses]
+codeChallenge="5b72b5d346d5744cacf4b8992b4e90c7c24ee287e87721267e0f504a66eda6a6"
+default_account = "43ec0c4e81ed955636d9313c8985d3229dfb2ff6b43fb87db6516059f244169a"
+
+zero = "0000000000000000000000000000000000000000000000000000000000000000"
+# default_admin = "0000000000000000000000000000000000000000000000000000000000000000"
+test_coin = "0x16"
+
